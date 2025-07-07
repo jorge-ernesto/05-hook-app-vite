@@ -1,10 +1,17 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import './assets/css/styles.css';
+import { CounterApp } from './components/01-useState/CounterApp';
+import { CounterAppWithCustomHook } from './components/01-useState/CounterAppWithCustomHook';
+import { SimpleForm } from './components/02-useEffect/SimpleForm';
+import { SimpleFormWithCustomHook } from './components/02-useEffect/SimpleFormWithCustomHook';
+import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <>
+        <CounterApp />
+        <CounterAppWithCustomHook />
+        <SimpleForm />
+        <SimpleFormWithCustomHook />
+        <MultipleCustomHooks />
+    </>
 )
