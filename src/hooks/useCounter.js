@@ -7,7 +7,7 @@ export const useCounter = (valorInicial = 10) => {
 
     let [contador, setContador] = useState(valorInicial)
 
-    /****************** Hooks ******************/
+    /****************** Funciones ******************/
 
     function aumentarContador(valor = 1) {
         setContador(contador + valor)
