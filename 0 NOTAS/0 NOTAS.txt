@@ -1,0 +1,7 @@
+---- Notas ----
+
+El curso fue modificado, es decir:
+
+    - NO se pudo terminar el proyecto antes de que el curso fuera modificado
+    - El enlace del codigo fuente en "0 RECURSOS" cambio completamente
+    - No se pudo documentar en VuePress
